@@ -74,3 +74,16 @@ a{
 .block:nth-child(even){
     background-color: rgb(0, 141, 141);
 }
+
+#scrolltop{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    height: 100px;
+    width: 100px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    opacity: 0;
+}
